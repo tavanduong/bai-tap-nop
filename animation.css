@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hinh-1{
+    width: 250px;
+    height: 70px;
+    background-color: darkturquoise;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 100px auto;
+    text-align: center;
+    line-height: 70px;
+  transition:border-radius 1s , background-color 1s 0.5s ;
+    
+  
+}
+.hinh-1:hover{
+    border-radius: 70px;
+    background-color: lawngreen;
+}
+.image-2-container{
+    display: flex;
+    width: 350px;
+    margin:10px auto;
+}
+.hinh-2{
+    display: flex;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.hinh-2 img{
+    width: 90px;
+    height:90px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+}
+.hinh-2:hover{
+    transform: scale(1.5);
+}
+.heart{
+    width: 200px;
+    height: 200px;
+    margin:100px auto;
+}
+.heart img{
+    width: 200px;
+    height: 200px;
+   animation: breakheart 6s forwards;
+}
+@-webkit-keyframes breakheart{
+    0%{ transform: scale(1)
+    }
+    15%{
+        transform: scale(1.5);
+    }
+    30%{
+        transform: scale(1);
+    }
+    45%{
+        transform: scale(1.5);
+    }
+    60%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.5);
+    }
+    90%{
+        transform: scale(1);
+    }
+}
